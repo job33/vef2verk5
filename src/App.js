@@ -14,7 +14,10 @@ class App extends Component {
 
     return (
       <main className="app">
-        <p>útfæra</p>
+        <Navigation className="navigation">
+        </Navigation>
+        <Home className="home">
+        </Home>
       </main>
     );
   }
