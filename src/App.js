@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import { Route, Link, Switch } from 'react-router-dom'
+import { Route, Link, Switch, NavLink } from 'react-router-dom'
 
 import './App.css';
 
@@ -11,7 +11,6 @@ import NotFound from './components/not-found';
 
 class App extends Component {
   render() {
-
     return (
       <main className="app">
         <Navigation className="navigation">
